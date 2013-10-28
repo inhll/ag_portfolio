@@ -1,0 +1,34 @@
+/* Customized Bootstrap 3 Style */
+/* Outline button for use within the docs */
+.btn-outline {
+    color: #B31B34;
+    background-color: #fff;
+    border-color: #e5e5e5;
+    text-shadow: none;
+}
+.btn-outline:hover,
+.btn-outline:focus,
+.btn-outline:active {
+    color: #fff;
+    background-color: #B31B34;
+    border-color: #B31B34;
+    text-shadow: none;
+}
+
+/* Inverted outline button (white on dark) */
+.btn-outline-inverse {
+    color: #3C3C3C;
+    background-color: transparent;
+    border: 1px solid #3C3C3C;
+    font-weight: 700;
+    font-size: 17px;
+    text-shadow: none;
+}
+.btn-outline-inverse:hover,
+.btn-outline-inverse:focus,
+.btn-outline-inverse:active {
+    color: #FFFFFF;
+    text-shadow: none;
+    background-color: #B31B34;
+    border: 1px solid #FFFFFF;
+}
