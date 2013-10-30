@@ -4,21 +4,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Professor Arthur Gerstenfeld Portfolio</title>
 
-    <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/bootstrap/3.0.0/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/main.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/boot3.css" rel="stylesheet">
+    <!-- customized stylesheet -->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
 
-    <!-- font awesome icons -->
-    <link href="http://cdn.jsdelivr.net/fontawesome/4.0.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <!-- bootstrap 3.0 stylesheet -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <!-- font awesome 4.0.1 stylesheet -->
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
 
-    <!-- Google Font Link: Choose font you want on google font(http://www.google.com/webfonts) and make sure your replace those fonts in name in custom.css -->
+    <!-- Google Font Links -->
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato%3A300%2C400%2C700&amp;ver=3.6.1">
     <link href='http://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,600,700" rel="stylesheet" type="text/css">
 
-    <!-- ##### Le HTML5 shim, for IE6-8 support of HTML5 elements ##### -->
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
-    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
     <![endif]-->
 
 </head>
@@ -50,6 +52,7 @@
     </div>
 </nav>
 
+<!-- first slide -->
 <section id="slide1" class="slide single-page-nav">
     <div class="container clearfix">
         <div class="row content">
@@ -61,10 +64,12 @@
                     <div class="col-md-2">
                         <i class="fa fa-quote-left"></i>
                     </div>
+                    <!-- ag quote -->
                     <div class="col-md-9">
                         "I enjoy teaching because it gives me an opportunity to influence young minds.  My main goal is to have them think critically. The WPI projects allow me to work with students who are transitioning from the classroom to a place in society. "</h4>
                     </div>
                 </div>
+                <!-- button links group -->
                 <div class="btn-group">
                     <a href="#slide2" class="btn btn-outline-inverse btn-lg" type="button">WHO AM I</a>
                     <div class="btn-group">
@@ -73,30 +78,32 @@
                             <span class="icon-angle-down"></span>
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a href="#">TEACHING</a></li>
-                            <li><a href="#">WALL STREET</a></li>
-                            <li><a href="#">AFRICA</a></li>
+                            <li><a href="#slide3">TEACHING</a></li>
+                            <li><a href="#slide4">PROJECTS</a></li>
                         </ul>
                     </div>
                 </div>
             </div>
+            <!-- ag portrait photo -->
             <div class="pic">
                 <img src="img/ag_portfolio.png" alt="Arthur Gerstenfeld" title="Arthur Gerstenfeld" class="hidden-sm">
             </div>
         </div>
 
     </div><!-- ./container -->
-</section><!-- ../#slide1 -->
+</section><!-- ./#slide1 -->
 
+<!-- second slide -->
 <section class="slide" id="slide2">
     <div class="pattern"></div><!-- ./pattern -->
     <div class="row">
         <div class="container clearfix">
+            <!-- slide title -->
             <div class="col-md-12">
                 <h1>About Me <small>Art's Global Advising and Curriculum Vitae (CV)</small></h1>
                 <hr>
             </div>
-
+            <!-- country list -->
             <div class="col-md-6">
                 <h2>My Global Advising</h2>
                 <ul>
@@ -109,7 +116,7 @@
                     <li><i class="fa fa-location-arrow"></i> Washington, D.C.</li>
                 </ul>
             </div>
-
+            <!-- button group first row -->
             <div class="hi-icon-effect-3 hi-icon-effect-3a col-md-6">
                 <div class="single-icon col-md-4">
                     <a data-toggle="modal" href="#education" class="hi-icon" title="Academic Background"><i class="fa_icon fa fa-pencil fa-3x"></i></a>
@@ -124,7 +131,7 @@
                     <p class="text-center">Honors</p>
                 </div>
             </div>
-
+            <!-- button group second row -->
             <div class="hi-icon-effect-3 hi-icon-effect-3a col-md-6">
                 <div class="single-icon col-md-4">
                     <a data-toggle="modal" href="#patents" class="hi-icon" title="Patents"><i class="fa_icon fa fa-lightbulb-o fa-3x"></i></a>
@@ -140,23 +147,25 @@
                 </div>
             </div>
 
-
+            <!-- full cv download link -->
             <div class="col-md-6 pull-right">
                 <hr>
                 <a href="files/Art_Vita_2011_Full.pdf" title="Art's CV Full Version Download" class="download" target="_blank"><h3 class="text-center"><i class="fa fa-download"></i> Download Full CV</h3></a>
             </div>
 
         </div>
-    </div>
-</section>
+    </div><!-- ./row -->
+</section><!-- ./#slide2 -->
 
+<!-- third slide -->
 <section class="slide" id="slide3">
     <div class="container clearfix">
         <div class="row content">
-            <div>
-                <h1>Teaching</h1>
+            <div class="col-md-12">
+                <h1>Teaching <small>Courses Taught &amp; Related Industrial Engineering Projects</small></h1>
                 <hr>
             </div>
+            <!-- left section -->
             <div class="col-md-6">
                 <h2>Courses Taught at WPI</h2>
                 <ul>
@@ -167,6 +176,7 @@
                     <li>PQP. MQP - Wall Street, NY/London</li>
                 </ul>
             </div>
+            <!-- right section -->
             <div class="col-md-6">
                 <h2>Industrial Engineering Projects</h2>
                 <ul>
@@ -174,20 +184,24 @@
                     <li>Verizon - Fiber Optics to the Home</li>
                 </ul>
             </div>
+            <!-- ag with other prof.s photo -->
             <div class="pic">
                 <img src="img/ie_profs.png" alt="Art with Industrial Engineering Professors" title="Art with Industrial Engineering Professors" class="hidden-sm">
             </div>
             <div class="picTitle">Art with Industrial Engineering Professors</div>
         </div>
-    </div>
-</section>
+    </div><!-- ./container -->
+</section><!-- ./#slide3 -->
 
+<!-- fourth slide -->
 <section class="slide" id="slide4">
     <div class="row">
         <div class="container clearfix">
+            <!-- slide title -->
             <div class="col-md-12">
-                <h1>Projects <small>Current &amp; Ongoing Projects</small> </h1>
+                <h1>Projects <small>Current &amp; Ongoing Projects</small></h1>
                 <hr>
+                <!-- larger picture -->
                 <div class="col-md-6">
                     <a class="imageHolder">
                         <img src="img/website_500_500.jpg" alt="Wall Street Project Center Website" title="Wall Street Project Center Website" width="500" height="500">
@@ -204,7 +218,7 @@
                     </p>
                     <hr>
                 </div>
-
+                <!-- thumbnail pictures -->
                 <div class="col-md-6">
                     <div class="col-md-4">
                         <a class="thumbnail active">
@@ -225,32 +239,47 @@
                 <div class="col-md-6 pull-right gotoSite">
                     <a href="http://wallstreet.wpi.com" target="_blank" class="btn btn-outline btn-lg pull-right" type="button"><i class="fa fa-sign-in"></i> Wall Street Project Center Website</a>
                 </div>
-                </div>
             </div>
-        </div>
+        </div><!-- ./container -->
+    </div><!-- ./row -->
+</section><!-- ./#slide4 -->
 
-    </div>
-</section>
-
+<!-- fifth slide -->
 <section class="slide" id="slide5">
     <div class="container clearfix">
-        <div class="row">
-            <h1>Contact Me<small>Art's Contact Information</small></h1>
-            <hr>
-            <div class="col-md-5">
-                <form>
-                    <input type="text" name="name" placeholder="Name">
-                    <input type="text" name="email" placeholder="Email">
-                    <input type="text" name="phone" placeholder="Phone" maxlength="10">
-                    <textarea name="message" rows="20" cols="40" placeholder="Message"></textarea>
-                    <input type="button" value="Submit" class="btn btn-outline-inverse btn-lg pull-right">
-                </form>
+        <div class="row content">
+            <!-- slide title -->
+            <h1>Contact Me <small>Art's Contact Information</small></h1>
+            <!-- contact info -->
+            <div class="col-md-4 contact-info">
+                <address>
+                    <h2>Gateway Park Office:</h2>
+                    50 Prescott, 1317<br />
+                    Worcester, MA 01609<br />
+                    <abbr title="Phone">P:</abbr> +1-508-831-5471<br />
+                    <abbr title="Fax">F:</abbr> +1-508-831-5720
+                </address>
+                <address>
+                    <h2>Arthur Gerstenfeld</h2>
+                    <abbr title="Email">E:</abbr> <a href="mailto:ag@wpi.edu">ag@wpi.edu</a>
+                </address>
             </div>
-            <hr>
-
+            <!-- ag bike picture -->
+            <div class="pic">
+                <img src="img/ag_bike.png" alt="Art's Leisure Time" title="Art's Leisure Time" class="hidden-sm">
+            </div>
         </div>
+    </div><!-- ./container -->
+</section><!-- ./#slide5 -->
+
+<!-- footer section -->
+<footer id="footer">
+    <div class="container clearfix">
+        <!-- copyright -->
+        <span class="copyright pull-left">© 2013 Professor Arthur Gerstenfeld Portfolio Website - Created by <a href="http://www.linkedin.com/in/chengdeng/" title="Cheng's LinkedIn" target="_blank"><i class="fa fa-linkedin-square"></i> Cheng Deng</a></span>
+        <span class="copyright pull-right"><a href="https://github.com/cdeng/ag_portfolio" title="Github repository" target="_blank"><i class="fa fa-github-square"></i> Github</a> Project - Code licensed under <a href="http://opensource.org/licenses/mit-license.html" title="MIT License" target="_blank">MIT License</a></span>
     </div>
-</section>
+</footer>
 
 <!-- education modal -->
 <div class="modal fade" id="education" tabindex="-1" role="dialog" aria-hidden="true">
@@ -568,8 +597,8 @@
     </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
 
-<script src="http:////cdn.jsdelivr.net/jquery/2.0.3/jquery-2.0.3.min.js"></script>
-<script src="http://cdn.jsdelivr.net/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+<script src="js/jquery-2.0.3.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 <script src="js/jquery.singlePageNav.min.js"></script>
 <script src="js/modernizr.custom.js"></script>
 <script src="js/main.js"></script>
