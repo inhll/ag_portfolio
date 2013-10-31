@@ -24,7 +24,11 @@ function initAG() {
         $('.imageHolder').find('img').attr("src", imgURL);
     });
 
-
+    // settings for single page navigation
+    $('.single-page-nav').singlePageNav({
+        offset: $('.single-page-nav').outerHeight(),
+        speed: 480
+    });
 
 };
 
