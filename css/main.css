@@ -262,16 +262,6 @@ h1,h2,h3,h4,h5 {
     bottom: 0px;
 }
 
-#slide3 .picTitle {
-    position: absolute;
-    right: 20px;
-    bottom: 20px;
-    color: #ffffff;
-    font-size: 1.2em;
-    font-family: "Open Sans", Arial, sans-serif;
-    background: rgba(0, 0, 0, 0.6);
-}
-
 #slide3 h1 {
     font-size: 3.8em;
     color:#8a8683;
