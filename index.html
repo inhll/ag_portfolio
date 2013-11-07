@@ -96,8 +96,8 @@
                 </div>
             </div>
             <!-- ag portrait photo -->
-            <div class="pic">
-                <img src="img/ag_portfolio.png" alt="Arthur Gerstenfeld" title="Arthur Gerstenfeld" class="hidden-sm">
+            <div class="pic visible-lg visible-md">
+                <img src="img/ag_portfolio.png" alt="Arthur Gerstenfeld" title="Arthur Gerstenfeld">
             </div>
         </div>
 
@@ -115,7 +115,7 @@
                 <hr>
             </div>
             <!-- country list -->
-            <div class="col-md-6">
+            <div class="col-md-6 col-sm-6">
                 <h2>My Global Advising</h2>
                 <ul>
                     <li><i class="fa fa-location-arrow"></i> Namibia, Africa</li>
@@ -127,39 +127,60 @@
                     <li><i class="fa fa-location-arrow"></i> Washington, D.C.</li>
                 </ul>
             </div>
-            <!-- button group first row -->
-            <div class="hi-icon-effect-3 hi-icon-effect-3a col-md-6">
-                <div class="single-icon col-md-4">
-                    <a data-toggle="modal" href="#education" class="hi-icon" title="Academic Background"><i class="fa_icon fa fa-pencil fa-3x"></i></a>
-                    <p class="text-center">Education</p>
+
+            <!-- button group desktop view -->
+            <div class="visible-lg visible-md col-md-6">
+                <!-- button group first row -->
+                <div class="hi-icon-effect-3 hi-icon-effect-3a col-md-12">
+                    <div class="single-icon col-md-4">
+                        <a data-toggle="modal" href="#education" class="hi-icon" title="Academic Background"><i class="fa_icon fa fa-pencil fa-3x"></i></a>
+                        <p class="text-center">Education</p>
+                    </div>
+                    <div class="single-icon col-md-4">
+                        <a data-toggle="modal" href="#publications" class="hi-icon" title="Publications"><i class="fa_icon fa fa-book icon fa-3x"></i></a>
+                        <p class="text-center">Publications</p>
+                    </div>
+                    <div class="single-icon col-md-4">
+                        <a data-toggle="modal" href="#honors" class="hi-icon" title="Honors and Professional Organizations"><i class="fa_icon fa fa-trophy fa-3x"></i></a>
+                        <p class="text-center">Honors</p>
+                    </div>
                 </div>
-                <div class="single-icon col-md-4">
-                    <a data-toggle="modal" href="#publications" class="hi-icon" title="Publications"><i class="fa_icon fa fa-book icon fa-3x"></i></a>
-                    <p class="text-center">Publications</p>
-                </div>
-                <div class="single-icon col-md-4">
-                    <a data-toggle="modal" href="#honors" class="hi-icon" title="Honors and Professional Organizations"><i class="fa_icon fa fa-trophy fa-3x"></i></a>
-                    <p class="text-center">Honors</p>
-                </div>
-            </div>
-            <!-- button group second row -->
-            <div class="hi-icon-effect-3 hi-icon-effect-3a col-md-6">
-                <div class="single-icon col-md-4">
-                    <a data-toggle="modal" href="#patents" class="hi-icon" title="Patents"><i class="fa_icon fa fa-lightbulb-o fa-3x"></i></a>
-                    <p class="text-center">Patents</p>
-                </div>
-                <div class="single-icon col-md-4">
-                    <a data-toggle="modal" href="#fundprojects" class="hi-icon" title="Funded Research Projects"><i class="fa_icon fa fa-group fa-3x"></i></a>
-                    <p class="text-center">Projects</p>
-                </div>
-                <div class="single-icon col-md-4">
-                    <a data-toggle="modal" href="#industryexp" class="hi-icon" title="Industry Experience and University Services"><i class="fa_icon fa fa-list-ol fa-3x"></i></a>
-                    <p class="text-center">Others</p>
+                <!-- button group second row -->
+                <div class="hi-icon-effect-3 hi-icon-effect-3a col-md-12">
+                    <div class="single-icon col-md-4">
+                        <a data-toggle="modal" href="#patents" class="hi-icon" title="Patents"><i class="fa_icon fa fa-lightbulb-o fa-3x"></i></a>
+                        <p class="text-center">Patents</p>
+                    </div>
+                    <div class="single-icon col-md-4">
+                        <a data-toggle="modal" href="#fundprojects" class="hi-icon" title="Funded Research Projects"><i class="fa_icon fa fa-group fa-3x"></i></a>
+                        <p class="text-center">Projects</p>
+                    </div>
+                    <div class="single-icon col-md-4">
+                        <a data-toggle="modal" href="#industryexp" class="hi-icon" title="Industry Experience and University Services"><i class="fa_icon fa fa-list-ol fa-3x"></i></a>
+                        <p class="text-center">Others</p>
+                    </div>
                 </div>
             </div>
 
+            <!-- button group mobile/tablet view -->
+            <div class="btngroup-sm hidden-lg hidden-md col-sm-6 pull-right">
+
+                <a data-toggle="modal" href="#education" class="btn btn-outline-inverse btn-lg btn-block" title="Academic Background"><i class="fa_icon fa fa-pencil"></i> Education</a>
+
+                <a data-toggle="modal" href="#publications" class="btn btn-outline-inverse btn-lg btn-block" title="Publications"><i class="fa_icon fa fa-book icon"></i> Publications</a>
+
+                <a data-toggle="modal" href="#honors" class="btn btn-outline-inverse btn-lg btn-block" title="Honors and Professional Organizations"><i class="fa_icon fa fa-trophy"></i> Honors</a>
+
+                <a data-toggle="modal" href="#patents" class="btn btn-outline-inverse btn-lg btn-block" title="Patents"><i class="fa_icon fa fa-lightbulb-o"></i> Patents</a>
+
+                <a data-toggle="modal" href="#fundprojects" class="btn btn-outline-inverse btn-lg btn-block" title="Funded Research Projects"><i class="fa_icon fa fa-group"></i> Projects</a>
+
+                <a data-toggle="modal" href="#industryexp" class="btn btn-outline-inverse btn-lg btn-block" title="Industry Experience and University Services"><i class="fa_icon fa fa-list-ol"></i> Others</a>
+
+            </div>
+
             <!-- full cv download link -->
-            <div class="col-md-6 pull-right">
+            <div class="col-md-6 col-sm-12 pull-right">
                 <hr>
                 <a href="files/Art_Vita_2011_Full.pdf" title="Art's CV Full Version Download" class="download" target="_blank"><h3 class="text-center"><i class="fa fa-download"></i> Download Full CV</h3></a>
             </div>
@@ -196,10 +217,10 @@
                 </ul>
             </div>
             <!-- ag with other prof.s photo -->
-            <div class="pic">
+            <div class="pic visible-lg visible-md">
                 <img src="img/ie_profs.png" alt="Art with Industrial Engineering Professors" title="Art with Industrial Engineering Professors" class="hidden-sm">
             </div>
-            <div class="picTitle">Art with Industrial Engineering Professors</div>
+            <div class="picTitle visible-lg visible-md">Art with Industrial Engineering Professors</div>
         </div>
     </div><!-- ./container -->
 </section><!-- ./#slide3 -->
@@ -213,12 +234,12 @@
                 <h1>Projects <small>Current &amp; Ongoing Projects</small></h1>
                 <hr>
                 <!-- larger picture -->
-                <div class="col-md-6">
+                <div class="col-md-6 visible-lg">
                     <a class="imageHolder">
                         <img src="img/website_500_500.jpg" alt="Wall Street Project Center Website" title="Wall Street Project Center Website" width="500" height="500">
                     </a>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 col-sm-12">
                     <h2>Wall Street Project Center</h2>
                     <h3>Worcester Polytechnic Institute</h3>
                     <p>
@@ -230,24 +251,24 @@
                     <hr>
                 </div>
                 <!-- thumbnail pictures -->
-                <div class="col-md-6">
-                    <div class="col-md-4">
+                <div class="col-md-6 col-sm-12">
+                    <div class="col-md-4 col-sm-4">
                         <a class="thumbnail active">
                             <img src="img/website_135_100.jpg" width="135" height="100" alt="Wall Street Project Center Website" title="Wall Street Project Center Website" />
                         </a>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 col-sm-4">
                         <a class="thumbnail">
                             <img src="img/ag_135_100.jpg" width="135" height="100" alt="Wall Street Project Center Annual Event" />
                         </a>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 col-sm-4">
                         <a class="thumbnail">
                             <img src="img/winner_135_100.jpg" width="135" height="100" alt="Wall Street Project Center Annual Event 2012 Winner Team" />
                         </a>
                     </div>
                 </div>
-                <div class="col-md-6 pull-right gotoSite">
+                <div class="col-md-6 col-sm-12 pull-right gotoSite">
                     <a href="http://wallstreet.wpi.com" target="_blank" class="btn btn-outline btn-lg pull-right" type="button"><i class="fa fa-sign-in"></i> Wall Street Project Center Website</a>
                 </div>
             </div>
@@ -276,7 +297,7 @@
                 </address>
             </div>
             <!-- ag bike picture -->
-            <div class="pic">
+            <div class="pic visible-lg visible-md">
                 <img src="img/ag_bike.png" alt="Art's Leisure Time" title="Art's Leisure Time" class="hidden-sm">
             </div>
         </div>
@@ -287,7 +308,7 @@
 <footer id="footer">
     <div class="container clearfix">
         <!-- copyright -->
-        <span class="copyright pull-left">© 2013 Professor Arthur Gerstenfeld Portfolio Website - Created by <a href="http://www.linkedin.com/in/chengdeng/" title="Cheng's LinkedIn" target="_blank"><i class="fa fa-linkedin-square"></i> Cheng Deng</a></span>
+        <span class="copyright pull-left">© 2013 Prof. AG Portfolio - Created by <a href="http://www.linkedin.com/in/chengdeng/" title="Cheng's LinkedIn" target="_blank"><i class="fa fa-linkedin-square"></i> Cheng Deng</a></span>
         <span class="copyright pull-right"><a href="https://github.com/cdeng/ag_portfolio" title="Github repository" target="_blank"><i class="fa fa-github-square"></i> Github</a> Project - Code licensed under <a href="http://opensource.org/licenses/mit-license.html" title="MIT License" target="_blank">MIT License</a></span>
     </div>
 </footer>

@@ -232,6 +232,15 @@ h1,h2,h3,h4,h5 {
     text-decoration: none;
 }
 
+#slide2 .btngroup-sm {
+    margin-top: 40px;
+    text-shadow: none;
+}
+
+#slide2 .btngroup-sm a {
+    color: #fff;
+}
+
 
 /*=================================================
 6 - SLIDE #3
@@ -311,6 +320,7 @@ h1,h2,h3,h4,h5 {
     line-height: 0px;
     padding-bottom: 5px;
     font-weight: 400;
+    padding-top: 15px;
 }
 
 #slide4 h3 {
