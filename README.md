@@ -16,7 +16,7 @@ This is a simple one-page portfolio website for Prof. Gerstenfeld of Worcester P
 
 ## Update
 
-# Contents Update - 11/15/2013
+### Contents Update - 11/15/2013
 
 * Removed the dates on Education degree.
 * Fixed the word "Grants".
