@@ -90,13 +90,12 @@ h1,h2,h3,h4,h5 {
 
 .nav-custom a.brand-custom {
     color: #B31B34 !important;
-    font-size: 30px;
-    font-weight: 700;
-    font-family: 'Oswald', sans-serif;
+    font-size: 26px;
+    font-weight: 500;
+    font-family: 'Open Sans', Arial, sans-serif;
     text-align: center;
     padding: 19px 0px 0px;
     display: block;
-    text-transform: uppercase;
 }
 
 /*=================================================
