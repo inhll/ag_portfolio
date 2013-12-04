@@ -16,6 +16,10 @@ This is a simple one-page portfolio website for Prof. Gerstenfeld of Worcester P
 
 ## Update
 
+### Contents Update - 12/03/2013
+* Show small portfolio picture instead of showing nothing in small devices
+* Change icon for Grants in mobile view
+
 ### Contents Update - 11/21/2013
 * Change icon for Grants
 * Add mobile phone contact method
