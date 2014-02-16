@@ -16,6 +16,10 @@ This is a simple one-page portfolio website for Prof. Gerstenfeld of Worcester P
 
 ## Update
 
+### Contents Update - 02/15/2014
+* Added new courses and courses now teaching section under "Courses"
+* Made the tabs in "Publications" more prominent
+
 ### Contents View Improvement - 01/24/2013
 * Added tab pane for publications to prevent the list being too long
 

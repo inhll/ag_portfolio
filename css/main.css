@@ -98,6 +98,10 @@ h1,h2,h3,h4,h5 {
     display: block;
 }
 
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
+    border-top: 2px solid #B31B34 !important;
+}
+
 /*=================================================
 3 - GLOBAL SLIDE SETTINGS
 =================================================*/
@@ -249,6 +253,7 @@ h1,h2,h3,h4,h5 {
     padding-bottom: 0;
     background: #F4F4F4;
     overflow: hidden;
+    padding-top: 100px;
 }
 
 #slide3 hr {
@@ -276,7 +281,7 @@ h1,h2,h3,h4,h5 {
 
 #slide3 .content {
     position: relative;
-    padding-bottom: 360px;
+    padding-bottom: 280px;
 }
 
 #slide3 ul li {
