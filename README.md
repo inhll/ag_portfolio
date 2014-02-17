@@ -16,6 +16,10 @@ This is a simple one-page portfolio website for Prof. Gerstenfeld of Worcester P
 
 ## Update
 
+### Contents Update - 02/17/2014
+* Changed word "Grants" to "Experience"
+* Added new location 'Glasgow' as PQP wall street project center
+
 ### Contents Update - 02/15/2014
 * Added new courses and courses now teaching section under "Courses"
 * Made the tabs in "Publications" more prominent
